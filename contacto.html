@@ -20,37 +20,86 @@
     </header>
 
     <!--Main-->
-    <main style="background-color: aliceblue; text-align:left;">
-    
-        <section>
-            <p style="padding: 15px ; font-size: 30px; color: black; margin: 0;">Comunícate conmigo a través de:</p>
+    <main style="background-color: aliceblue; text-align:center;">
 
-<table width="100%" border="0" cellpadding="25">
+        <section>
+            <p style="padding: 15px;font-size: 30px; color: black; margin: 0;">Comunícate conmigo a través de:</p>
+
+            <div style="text-align: center;">
+
+        <table width="100%" border="0" cellpadding="20">
             <tr>
                 <td>
-                    <img style="float:left; margin:0; width: 30px; height: 40px;"
+                    <img style="margin:0; width: 30px; height: 40px;"
                         src="https://cdn.icon-icons.com/icons2/1129/PNG/512/cellphone_79786.png" /> Celular: (+57) 3106488188
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img style="float:left; margin:0; width: 30px; height: 40px;"
-                        src="http://assets.stickpng.com/images/5a452601546ddca7e1fcbc87.png" /> Teléfono: +55 (2) 4065876
+                    <img style=" margin:0; width: 30px; height: 40px;"
+                        src="http://assets.stickpng.com/images/5a4525f5546ddca7e1fcbc86.png" /> Teléfono: +55 (2) 4065876
                 </td>
             </tr>   
             <tr>
                 <td>
-                    <img style="float:left; margin:0; width: 30px; height: 40px;"
+                    <img style=" margin:0; width: 30px; height: 40px;"
                         src="https://i.pinimg.com/originals/23/98/2d/23982d31ee932c26a021b175c47bb157.png" /> Correo: clasespersonalizadas@clases.com
                 </td>
             </tr>
+            </div>
+        </section>
+
+        <!--Formulario-->
+        <section>
+
+            <div style="text-align: center">
+            <form action="form.html" method="post">
+            <table width="100%" border="0" cellpadding="25">
+                <tr>
+                    <td>
+                    <p style="font-size: 25px; color: black; margin: 0;">Si deseas puedes dejarnos tus datos acá y nos
+                        comunicaremos contigo lo antes posible:</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="nombreUsuario">Nombres </label> <br>
+                    <Input type="text" id="nombreUsuario"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="apellidoUsuario">Apellidos </label> <br>
+                        <Input type="text" id="apellidoUsuario"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="celular"></label>Celular<br>
+                        <Input type="number" id="celular"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="correo"></label>Correo<br>
+                        <Input type="email" id="correo"><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="mensaje"></label>Mensaje<br>
+                        <textarea name="comments" id="mensaje" cols="30" rows="10"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+                </form>
+                </div>
         </section>
     </main>
-
-            <!--Footer-->
-            <!--footer style="background-color:azure; text-align: center;">
-                <p style="margin: 0;">&copy; 2021 María José Salazar Gómez, todos los derechos reservados.</p>
-            </footer-->
-  
 </body>
 </html>
